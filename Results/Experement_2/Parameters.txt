@@ -1,0 +1,7 @@
+# Parameters
+CORPUS_PATH = Path("AllDatasets.txt")   # Dataset
+VOCAB_SIZE = 10000                    # Sub‑token vocabulary size # For BPE
+WINDOW_SIZE = 16                     # Context window
+EMBED_DIM = 90                       # dimensionality
+MODEL_PREFIX = "pl_bpe"              # Model name
+TOP_K = 5  

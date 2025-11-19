@@ -1,0 +1,6 @@
+# Parameters
+CORPUS_PATH = Path("AllDatasets.txt")   # dataset to use
+VOCAB_SIZE = 60000                    # Sub‑token vocabulary size
+WINDOW_SIZE = 7                     # Context window (in size of tokens)
+EMBED_DIM = 60                      # dimensionality
+MODEL_PREFIX = "pl_bpe_"        # Prefix for *.model / *.vocab files
